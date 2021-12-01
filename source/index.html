@@ -2,15 +2,17 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
     <title>Пинк</title>
   </head>
+
   <body class="page__body">
     <header class="header">
       <a class="header__logo">
         <img class="header__logo-image" src="img/logo-mobile.svg" alt="Логотип PINK" width="74" height="23">
       </a>
 
-      <nav class="header__nav nav">
+      <nav class="header__nav nav visually-hidden">
         <button class="nav__toggle" type="button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
@@ -35,6 +37,8 @@
       </nav>
 
       <p class="header__slogan">Взгляните на жизнь иначе!</p>
+
+      <img class="header__image" src="img/phone-mobile.png" alt="Телефон с фотографией, окрашенной в розовый цвет" width="320" height="286">
 
       <div class="header__download download">
 
@@ -73,10 +77,9 @@
         <header class="advantages__header">
           <h2 class="visually-hidden">Преимущества</h2>
 
-          <p class="advantages__intro">
-            Устали от серости мегаполиса? <br>
-            Нам есть, что вам предложить!
-          </p>
+          <p class="advantages__intro advantages__intro--mobile">Устали от серости мегаполиса?</p>
+
+          <p class="advantages__intro">Нам есть, что вам предложить!</p>
         </header>
 
         <ul class="advantages__list">

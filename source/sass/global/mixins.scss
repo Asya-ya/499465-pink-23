@@ -1,0 +1,12 @@
+@mixin list-reset() {
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+@mixin simple-text($line-height: 24px, $weight: 400) {
+  font-size: 14px;
+  line-height: $line-height;
+  font-weight: $weight;
+}

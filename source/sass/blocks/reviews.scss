@@ -1,0 +1,39 @@
+.reviews {
+  padding-top: 43px;
+  padding-bottom: 57px;
+}
+
+.reviews__list {
+  @include list-reset();
+
+  text-align: center;
+}
+
+.reviews__author {
+  margin: 0;
+
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.reviews__author-about {
+  margin: 0;
+
+  color: $text-color;
+  line-height: 30px;
+}
+
+.reviews__text {
+  margin: 0;
+  margin-top: 12px;
+
+  color: $text-color;
+  line-height: 30px;
+}
+
+.reviews__toggles {
+  margin: 0;
+  margin-top: 30px;
+}

@@ -1,0 +1,11 @@
+.page {
+  font-family: "Open Sans", "Arial", sans-serif;
+  @include simple-text();
+  color: $text-color;
+}
+
+.page__body {
+  margin: 0;
+
+  background-color: #ffffff;
+}

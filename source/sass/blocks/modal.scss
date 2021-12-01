@@ -1,0 +1,27 @@
+.modal {
+  padding: 38px 20px 50px 20px;
+
+  text-align: center;
+}
+
+.modal__title {
+  @include bold($line-height: 24px);
+  color: #000000;
+}
+
+.modal__text {
+  margin: 0;
+  margin-top: 24px;
+}
+
+.modal__button {
+  margin-top: 41px;
+
+  @include bold();
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.modal__wrapper {
+  background-color: $background-color;
+}

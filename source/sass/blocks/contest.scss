@@ -1,0 +1,14 @@
+.contest {
+  padding-top: 44px;
+  padding-bottom: 16px;
+}
+
+.contest__intro {
+  margin: 0;
+
+  @include title();
+}
+
+.contest__form {
+  margin-top: 35px;
+}

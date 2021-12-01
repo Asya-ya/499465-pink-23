@@ -1,0 +1,86 @@
+.contest-form__group {
+  @include fieldset-reset();
+  padding-bottom: 42px;
+}
+
+.contest-form__group:nth-of-type(2n) {
+  background-color: $background-color;
+}
+
+.contest-form__group:not(:first-of-type) {
+  padding-top: 38px;
+}
+
+.contest-form__field {
+  margin: 0;
+}
+
+.contest-form__field:not(:first-of-type) {
+  margin-top: 17px;
+}
+
+.contest-form__label {
+  display: block;
+
+  @include title();
+  text-transform: uppercase;
+  color: $pink;
+}
+
+.contest-form__input {
+  margin-top: 5px;
+  padding: 15px;
+  border: 2px solid #e5e5e5;
+  border-radius: 2px;
+}
+
+.contest-form__input::placeholder {
+  @include placeholder();
+  color: $text-color;
+}
+
+.contest-form__title {
+  margin: 0;
+
+  @include title();
+  text-transform: uppercase;
+  color: $pink;
+  text-align: center;
+}
+
+.contest-form__value {
+  @include placeholder();
+}
+
+.contest-form__group:nth-of-type(2) .contest-form__field:first-of-type {
+  margin-top: 38px;
+}
+
+.contest-form__group:nth-of-type(2) .contest-form__field:not(:first-of-type) {
+  margin-top: 43px;
+}
+
+.contest-form__group:nth-of-type(4) .contest-form__field {
+  margin-top: 34px;
+}
+
+.contest-form__input {
+  margin-top: 15px;
+
+  @include placeholder();
+}
+
+.contest-form__submit {
+  @include bold();
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.contest-form__info {
+  @include title();
+  text-transform: uppercase;
+}
+
+.contest-form__asterisk {
+  color: $pink;
+}

@@ -1,0 +1,14 @@
+.upload {
+  padding: 40px 0;
+}
+
+.upload__header {
+  padding-bottom: 43px;
+
+  text-align: center;
+}
+
+.upload__intro {
+  margin: 0;
+  @include title();
+}

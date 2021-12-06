@@ -1,0 +1,35 @@
+.photo-card {
+  background-color: $background-color;
+}
+
+.photo-card__desc {
+  padding: 18px;
+}
+
+.photo-card__author {
+  @include bold($size: 14px, $line-height: 24px);
+}
+
+.photo-card__status {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.photo-card__quote {
+  margin: 0;
+
+  @include simple-text();
+}
+
+.photo-card__likes {
+  margin: 0;
+  margin-top: 12px;
+
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $pink;
+}

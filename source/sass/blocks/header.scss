@@ -16,6 +16,9 @@
 }
 
 .header__title {
+  margin: 0;
+  margin-top: 29px;
+
   @include header();
   color: #ffffff;
   text-align: center;

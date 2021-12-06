@@ -1,0 +1,9 @@
+.upload-form {
+  padding: 20px 0 40px 0;
+  background-color: $background-color;
+}
+
+.upload-form__button {
+  @include bold($line-height: 18px);
+  color: $pink;
+}

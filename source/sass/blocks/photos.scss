@@ -1,0 +1,23 @@
+.photos {
+  padding-top: 44px;
+}
+
+.photos__header {
+  padding: 0 18px;
+}
+
+.photos__intro {
+  margin: 0;
+
+  @include title();
+  text-align: center;
+}
+
+.photos__list {
+  @include list-reset();
+  margin-top: 50px;
+}
+
+.photos__item:not(:first-of-type) {
+  margin-top: 20px;
+}
